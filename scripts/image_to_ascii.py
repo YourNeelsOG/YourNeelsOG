@@ -15,11 +15,17 @@ ROOT = Path(__file__).resolve().parent.parent
 SOURCE_PATH = ROOT / "assets" / "source" / "avatar-original.png"
 OUT_PATH = ROOT / "assets" / "avatar_ascii.txt"
 
-RAMP = " .:-=+*#%@"  # low density -> high density
+# 70-level brightness ramp (Paul Bourke's classic ascii-art gradient),
+# reversed so index 0 (background/low brightness) is space and the far end
+# is the densest glyph — matches our white-ink-on-dark-background source.
+# A crude 10-char ramp loses too much tonal detail to read as a face.
+_BOURKE_DARK_TO_LIGHT = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'. "
+RAMP = _BOURKE_DARK_TO_LIGHT[::-1]
 
 # Monospace character cell aspect ratio (width/height) at typical terminal
-# metrics, used to keep the ascii art from looking stretched/squashed.
-CELL_ASPECT = 0.44
+# metrics, used to keep the ascii art from looking stretched/squashed. Tuned
+# to match generate_terminal.py's LOGO_FONT_SIZE/LOGO_LINE_H.
+CELL_ASPECT = 0.513
 
 
 def image_to_ascii(path, rows):

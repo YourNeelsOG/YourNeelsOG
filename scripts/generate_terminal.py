@@ -32,9 +32,11 @@ FONT_STACK = "'JetBrains Mono','Fira Code','Cascadia Code',monospace"
 # The ascii-art logo is much higher-resolution than the info column's text
 # grid, so it gets its own (smaller, tighter) font/line-height rather than
 # sharing LINE_H — otherwise a 90+ column logo would blow the layout out to
-# an unreasonable width.
-LOGO_FONT_SIZE = 8
-LOGO_LINE_H = 9
+# an unreasonable width. Sized so individual characters stay legible at
+# GitHub's actual README display width (~830px) — denser than this and it
+# blurs into gray texture with no readable facial detail.
+LOGO_FONT_SIZE = 11
+LOGO_LINE_H = 12
 LOGO_CHAR_W = LOGO_FONT_SIZE * 0.56
 
 LOGO_X = PAD_X
