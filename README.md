@@ -57,9 +57,9 @@ Computer Technology student from Bangladesh. Exploring how AI technology makes d
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YourNeelsOG&theme=dark&hide_border=true" alt="Streak Stats" />
+  <img src="https://streak-stats.demolab.com/?user=YourNeelsOG&theme=dark&hide_border=true" alt="Streak Stats" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YourNeelsOG&show_icons=true&hide=issues&count_private=true&hide_border=true&bg_color=00000000" alt="GitHub Stats" height="150" />&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YourNeelsOG&layout=compact&hide_border=true&count_private=true&bg_color=00000000" alt="Top Languages" height="150" />
+  <img src="https://github-readme-stats-git-master-rickstaa.vercel.app/api?username=YourNeelsOG&show_icons=true&hide=issues&count_private=true&hide_border=true&bg_color=00000000" alt="GitHub Stats" height="150" />&nbsp;
+  <img src="https://github-readme-stats-git-master-rickstaa.vercel.app/api/top-langs/?username=YourNeelsOG&layout=compact&hide_border=true&count_private=true&bg_color=00000000" alt="Top Languages" height="150" />
 </p>
