@@ -1,0 +1,39 @@
+name: Update terminal profile
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # daily at 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh stats from GitHub API
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: python3 scripts/fetch_stats.py
+
+      - name: Regenerate terminal.svg
+        run: python3 scripts/generate_terminal.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- config/profile.json assets/terminal.svg; then
+            echo "No changes, skipping commit"
+          else
+            git add config/profile.json assets/terminal.svg
+            git commit -m "chore: refresh terminal profile stats"
+            git push
+          fi

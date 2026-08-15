@@ -1,0 +1,51 @@
+{
+  "username": "YourNeelsOG",
+  "command": "about YourNeelsOG",
+  "role": "Computer Technology Student",
+  "os": "Arch Linux",
+  "host": "YourNeelsOG",
+  "kernel": "Linux",
+  "shell": "zsh",
+  "desktop": "Hyprland",
+  "terminal": "Kitty",
+  "languages": [
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "Bash"
+  ],
+  "tools": [
+    "Git",
+    "Docker",
+    "Next.js",
+    "Linux"
+  ],
+  "stats": {
+    "repositories": 5,
+    "contributions": 9,
+    "stars": 0,
+    "followers": 2
+  },
+  "colors": {
+    "background": "#0d1117",
+    "window_chrome": "#161b22",
+    "border": "#30363d",
+    "text_primary": "#c9d1d9",
+    "text_secondary": "#8b949e",
+    "prompt": "#7ee787",
+    "accent": "#79c0ff",
+    "label": "#79c0ff",
+    "dot_red": "#ff5f56",
+    "dot_yellow": "#ffbd2e",
+    "dot_green": "#27c93f"
+  },
+  "timing": {
+    "char_delay_ms": 85,
+    "char_jitter_ms": 20,
+    "post_type_pause_ms": 400,
+    "enter_pause_ms": 300,
+    "fastfetch_line_delay_ms": 90,
+    "final_cursor_blink_ms": 550,
+    "loop_pause_ms": 2000
+  }
+}

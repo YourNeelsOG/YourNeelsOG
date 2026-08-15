@@ -1,6 +1,14 @@
 <h1 align="center">Hi, I'm Neel 👋!</h1>
 
 <p align="center">
+  <img
+    src="./assets/terminal.svg"
+    width="880"
+    alt="Animated Linux terminal typing 'about YourNeelsOG' and printing a fastfetch-style profile summary"
+  />
+</p>
+
+<p align="center">
 Computer Technology student from Bangladesh. Exploring how AI technology makes digital spaces and operations smarter. Always learning, configuring, and figuring out how things work under the hood. I'm currently working on developing my skillsets.
 </p>
 
