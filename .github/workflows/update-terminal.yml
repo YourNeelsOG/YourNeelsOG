@@ -20,7 +20,8 @@ jobs:
 
       - name: Refresh stats from GitHub API
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          # Built-in per-run token: never expires, and the query only needs public data.
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/fetch_stats.py
 
       - name: Regenerate terminal.svg
