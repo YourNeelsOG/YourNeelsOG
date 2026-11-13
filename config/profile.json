@@ -1,7 +1,7 @@
 {
   "username": "YourNeelsOG",
   "command": "about YourNeelsOG",
-  "role": "Computer Technology Student",
+  "role": "Full-Stack Developer",
   "os": "Arch Linux",
   "host": "YourNeelsOG",
   "kernel": "Linux",
@@ -11,13 +11,13 @@
   "languages": [
     "Python",
     "TypeScript",
-    "JavaScript",
+    "Rust",
     "Bash"
   ],
   "tools": [
-    "Git",
-    "Docker",
+    "FastAPI",
     "Next.js",
+    "Docker",
     "Linux"
   ],
   "stats": {

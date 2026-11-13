@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-Computer Technology student from Bangladesh. Exploring how AI technology makes digital spaces and operations smarter. Always learning, configuring, and figuring out how things work under the hood. I'm currently working on developing my skillsets.
+Full-stack developer from Bangladesh and Computer Technology student. I ship production features end to end, from database migrations and APIs to admin tools and the screens students tap on their phones. Lately I'm also co-building an early-stage startup of my own. Arch + Hyprland at home, Linux servers everywhere else.
 </p>
 
 <p align="center">
@@ -20,17 +20,29 @@ Computer Technology student from Bangladesh. Exploring how AI technology makes d
 
 <br>
 
-<h2 align="center">What I Work On</h2>
+<h2 align="center">What I'm Doing Now</h2>
 
-✔ **Self-hosted infrastructure:** Running and managing Linux servers, debugging service-level issues, and keeping things stable in production
+🏫 **Full-stack engineer on an EdTech learning platform.** About 860 commits and 150+ merged PRs across the four parts of the product: a FastAPI backend, a Next.js admin panel, the student web app and the public storefront.
 
-✔ **Media & download tooling:** Building and patching pipelines that handle real-world edge cases: proxy fallbacks, device spoofing, parallel API calls, and format detection
+🚀 **Co-building a startup.** Early days, small team, more to share soon.
 
-✔ **Automation & workflows:** Building web scrapers, monitoring systems, and custom bots using Python, n8n, and Google Apps Script
+🛠️ **Open source and self-hosting.** Rust, Go and Python tools for servers, seedboxes and automation, plus fixes sent upstream.
 
-✔ **Codebase internals:** Reading and modifying third-party codebases, fixing concurrency bugs, and extending functionality without breaking existing behavior
+<br>
 
+<h2 align="center">Things I've Built and Shipped</h2>
 
+✔ **Form builder:** fully replaced Google Forms in-house, with more features and full control of the data
+
+✔ **Secure eBook reader:** protects paid books from piracy, so content keeps its value
+
+✔ **Activity feed:** keeps students engaged and informed without the team chasing them by hand
+
+✔ **Live classes:** lets instructors run classes in one click and keeps them closed to unauthorized users
+
+✔ **Platform hardening:** closed data-exposure paths and cut load times, so the platform stays secure and fast as it scales
+
+<br>
 
 <h2 align="center">Languages and Tools</h2>
 
@@ -58,6 +70,39 @@ Computer Technology student from Bangladesh. Exploring how AI technology makes d
   </a>
   <a href="https://www.latex-project.org/" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/latex/latex-original.svg" alt="latex" width="30" height="30"/>
+  </a>
+  <a href="https://www.rust-lang.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-original.svg" alt="rust" width="30" height="30"/>
+  </a>
+  <a href="https://go.dev/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="30" height="30"/>
+  </a>
+  <a href="https://fastapi.tiangolo.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="fastapi" width="30" height="30"/>
+  </a>
+  <a href="https://nextjs.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" alt="nextjs" width="30" height="30"/>
+  </a>
+  <a href="https://react.dev/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="30" height="30"/>
+  </a>
+  <a href="https://tailwindcss.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="tailwind" width="30" height="30"/>
+  </a>
+  <a href="https://www.postgresql.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="postgresql" width="30" height="30"/>
+  </a>
+  <a href="https://redis.io/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" alt="redis" width="30" height="30"/>
+  </a>
+  <a href="https://www.docker.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="30" height="30"/>
+  </a>
+  <a href="https://www.linux.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="30" height="30"/>
+  </a>
+  <a href="https://git-scm.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="30" height="30"/>
   </a>
 </p>
 
